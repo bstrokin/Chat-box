@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-width: 0px;
+    font-family: 'Arial';
+}
+
+main{
+    width: 800px;
+    height: 100vh;
+    background-color: aliceblue;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+input, textarea{
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(248, 252, 255);
+    padding: 12.5px;
+}
+
+
+textarea{
+    min-height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.posts-container{
+    width: calc(50% - 25px);
+    height: 50vh;
+    overflow-y: auto;
+    background-color: rgb(248, 252, 255);
+    margin-bottom: 50px;
+    padding: 12.5px;
+}
+
+.post-container{
+    width: calc(100% - 25px);
+    background-color: aliceblue;
+    margin-bottom: 12.5px;
+    padding: 12.5px;
+    display: flex;
+}
+
+.post-container h3{
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100px;
+}
